@@ -28,18 +28,22 @@ export default function Home() {
             <li>- Bridge Coating Projects</li>
             <li>- Epoxy & Zinc-Based Systems</li>
             <li>- Quality Control & Compliance</li>
+            <li>- Polymer Thin Deck Overlay</li>
+            <li>- Chip Seal</li>
+            <li>- Water Towers</li>
+            <li>- Water Dams</li>
+            <li>- Train Cars</li>
           </ul>
         </div>
       </section>
 
-      <section className="py-12">
+            <section className="py-12">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-semibold mb-4">About Us</h2>
-          <p className="text-lg max-w-2xl">
-            American Industrial Coatings Inc. is a leader in industrial protective coatings. We work with state DOTs, federal agencies,
-            and private infrastructure developers to deliver high-performance surface preparation and coating solutions. Our certified
-            team ensures safety, quality, and environmental compliance on every job site.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+          <p className="mb-2">Phone: 219-256-5116</p>
+          <p className="mb-2">Fax: 219-259-0158</p>
+          <p className="mb-2">E-Mail: kris@aicoatings.ai</p>
+          <p>Address: 1215 Birch Drive Suite B, Schererville, IN 46375</p>
         </div>
       </section>
 
@@ -77,7 +81,7 @@ export default function Home() {
         </div>
       </section>
 
-            <section className="py-12 bg-gray-100">
+      <section className="py-12 bg-gray-100">
         <div className="container mx-auto px-4 flex justify-center items-center space-x-8">
           <Image
             src="/AMPP Membership Logo.png"
