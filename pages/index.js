@@ -71,9 +71,32 @@ export default function Home() {
       <section className="py-12">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
-          <p className="mb-2">Phone: (555) 123-4567</p>
-          <p className="mb-2">Email: info@aicoatings.ai</p>
-          <p>Address: 123 Coatings Blvd, Industrial City, USA</p>
+          <p className="mb-2">Phone: 219-256-5116</p>
+          <p className="mb-2">Email: kris@aicoatings.ai</p>
+          <p>Address: 1215 Birch Drive Suite B, Schererville, IN 46375</p>
+        </div>
+      </section>
+
+            <section className="py-12 bg-gray-100">
+        <div className="container mx-auto px-4 flex justify-center items-center space-x-8">
+          <Image
+            src="/AMPP Membership Logo.png"
+            alt="AMPP Member Badge"
+            width={120}
+            height={120}
+          />
+          <Image
+            src="/AMPP_QPLogo_QP1.png"
+            alt="AMPP QP1 Field Application"
+            width={120}
+            height={120}
+          />
+          <Image
+            src="/AMPP_QPLogo_QP2.png"
+            alt="AMPP QP2 Field Removal"
+            width={120}
+            height={120}
+          />
         </div>
       </section>
 
