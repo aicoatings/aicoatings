@@ -1,13 +1,17 @@
-
 import Image from "next/image";
-import Logo from "/IndustrialCoatingsInc-02.png";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
       <header className="bg-gray-800 text-white py-6 shadow-md">
         <div className="container mx-auto px-4 flex items-center gap-4">
-          <Image src={Logo} alt="American Industrial Coatings Logo" width={80} height={80} className="rounded-full" />
+          <Image
+            src="/IndustrialCoatingsInc-02.png"
+            alt="American Industrial Coatings Logo"
+            width={80}
+            height={80}
+            className="rounded-full"
+          />
           <div>
             <h1 className="text-3xl font-bold">American Industrial Coatings Inc.</h1>
             <p className="text-sm text-gray-300">Specializing in Abrasive Blasting & Structural Steel Painting</p>
