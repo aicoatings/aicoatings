@@ -14,7 +14,9 @@ export default function Home() {
           />
           <div>
             <h1 className="text-3xl font-bold">American Industrial Coatings Inc.</h1>
-            <p className="text-sm text-gray-300">Specializing in Abrasive Blasting & Structural Steel Painting</p>
+            <p className="text-sm text-gray-300">
+              Specializing in Abrasive Blasting & Structural Steel Painting
+            </p>
           </div>
         </div>
       </header>
@@ -34,16 +36,6 @@ export default function Home() {
             <li>- Water Dams</li>
             <li>- Train Cars</li>
           </ul>
-        </div>
-      </section>
-
-            <section className="py-12">
-        <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
-          <p className="mb-2">Phone: 219-256-5116</p>
-          <p className="mb-2">Fax: 219-259-0158</p>
-          <p className="mb-2">E-Mail: kris@aicoatings.ai</p>
-          <p>Address: 1215 Birch Drive Suite B, Schererville, IN 46375</p>
         </div>
       </section>
 
@@ -72,11 +64,13 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Moved Contact Us section above logos */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
           <p className="mb-2">Phone: 219-256-5116</p>
-          <p className="mb-2">Email: kris@aicoatings.ai</p>
+          <p className="mb-2">Fax: 219-259-0158</p>
+          <p className="mb-2">E-Mail: kris@aicoatings.ai</p>
           <p>Address: 1215 Birch Drive Suite B, Schererville, IN 46375</p>
         </div>
       </section>
