@@ -8,8 +8,8 @@ export default function Home() {
           <Image
             src="/IndustrialCoatingsInc-02.png"
             alt="American Industrial Coatings Logo"
-            width={80}
-            height={80}
+            width={120}
+            height={120}
             className="rounded-full"
           />
           <div>
@@ -55,7 +55,7 @@ export default function Home() {
               />
             </div>
             <p className="text-sm text-gray-700">
-              By providing your phone number, you agree to receive SMS messages from American Industrial Coatings Inc. related to project updates, scheduling, and company news. Message frequency may vary. Reply STOP to opt out. Your information will not be shared or sold.
+              By providing your phone number, you agree to receive SMS messages from American Industrial Coatings Inc. related to project updates, scheduling, and company news. Message frequency may vary. Message and data rates may apply. Reply STOP to unsubscribe. For HELP, text HELP or visit our <a href="/privacy-policy" className="underline">Privacy Policy</a> and <a href="/terms-of-service" className="underline">Terms of Service</a>.
             </p>
             <button type="submit" className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
               Subscribe
@@ -99,7 +99,11 @@ export default function Home() {
       </section>
 
       <footer className="bg-gray-800 text-white py-4 text-center">
-        <p>&copy; {new Date().getFullYear()} American Industrial Coatings Inc. All rights reserved.</p>
+        <div className="container mx-auto px-4 space-x-4">
+          <a href="/privacy-policy" className="text-gray-300 hover:underline">Privacy Policy</a>
+          <a href="/terms-of-service" className="text-gray-300 hover:underline">Terms of Service</a>
+        </div>
+        <p className="mt-2">&copy; {new Date().getFullYear()} American Industrial Coatings Inc. All rights reserved.</p>
       </footer>
     </main>
   );
